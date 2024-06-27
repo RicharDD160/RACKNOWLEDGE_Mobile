@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590761467289",
+    "project_id": "racknowledge-b7b5b",
+    "storage_bucket": "racknowledge-b7b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590761467289:android:c485d7e300179891dec708",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtQk-kucFrOEGZb-uU9SeHkzs9ccf-oBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590761467289:android:0e750ccb90ddabd4dec708",
+        "android_client_info": {
+          "package_name": "com.example.racknowledge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtQk-kucFrOEGZb-uU9SeHkzs9ccf-oBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

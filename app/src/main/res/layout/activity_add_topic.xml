@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTopicName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Tema"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etTopicDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTopicName"
+        android:layout_marginTop="16dp"
+        android:hint="Descripción del Tema"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTopicDescription"
+        android:layout_marginTop="16dp"
+        android:text="Subir Imagen"
+        android:onClick="onUploadImageClick" />
+
+    <Button
+        android:id="@+id/btnAddTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUploadImage"
+        android:layout_marginTop="16dp"
+        android:text="Agregar Tema"
+        android:onClick="onAddTopicClick" />
+
+</RelativeLayout>

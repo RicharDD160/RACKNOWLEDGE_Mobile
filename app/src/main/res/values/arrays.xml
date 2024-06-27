@@ -1,0 +1,15 @@
+<resources>
+    <!-- Opciones para Tipo de Documento -->
+    <string-array name="tipo_documento_options">
+        <item>TI</item>
+        <item>CC</item>
+        <item>CE</item>
+        <item>RUT</item>
+    </string-array>
+
+    <!-- Opciones para Rol -->
+    <string-array name="rol_options">
+        <item>Estudiante</item>
+        <item>Profesor</item>
+    </string-array>
+</resources>

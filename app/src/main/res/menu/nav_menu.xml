@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_agregar_usuario"
+        android:title="Agregar Nuevo Usuario" />
+    <item
+        android:id="@+id/nav_agregar_tema"
+        android:title="Agregar Nuevo Tema" />
+    <item
+        android:id="@+id/nav_temas"
+        android:title="Temas" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Configuración" />
+    <item
+        android:id="@+id/nav_salir"
+        android:title="Salir" />
+</menu>

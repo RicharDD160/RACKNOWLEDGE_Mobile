@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText para Nombre -->
+    <EditText
+        android:id="@+id/etDialogUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+
+    <!-- EditText para Correo Electrónico -->
+    <EditText
+        android:id="@+id/etDialogUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email" />
+
+    <!-- EditText para Fecha de Nacimiento -->
+    <EditText
+        android:id="@+id/etDialogFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dob" />
+
+    <!-- EditText para Número de Documento -->
+    <EditText
+        android:id="@+id/etDialogNumeroDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/document_number" />
+
+    <!-- Spinner para Tipo de Documento -->
+    <Spinner
+        android:id="@+id/spinnerTipoDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_tipo_documento"
+        android:entries="@array/tipo_documento_options" />
+
+    <!-- EditText para Rol -->
+    <Spinner
+        android:id="@+id/spinnerRol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_rol"
+        android:entries="@array/rol_options" />
+
+    <!-- EditText para Teléfono -->
+    <EditText
+        android:id="@+id/etDialogTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone" />
+
+    <!-- Botón para agregar/actualizar usuario -->
+    <Button
+        android:id="@+id/btnDialogAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register" />
+
+</LinearLayout>

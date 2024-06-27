@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">racknowledge</string>
+    <string name="login">Login</string>
+    <string name="register_here">Registrate aqui</string>
+    <string name="register">Registrar</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="email">Correo</string>
+    <string name="phone">Teléfono</string>
+    <string name="dob">Fecha de nacimiento</string>
+    <string name="document_type">Tipo de documento</string>
+    <string name="document_number">Número de documento</string>
+    <string name="role">Rol</string>
+    <string name="student">Estudiante</string>
+    <string name="teacher">Profesor</string>
+    <string name="password">Contraseña</string>
+    <string name="user_name_placeholder">Nombre de Usuario</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="select_tipo_documento">Selecciona Tipo de Documento</string>
+    <string name="select_rol">Selecciona Rol</string>
+    <string name="update">Actualizar</string>
+</resources>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Botón para subir foto -->
+    <Button
+        android:id="@+id/btn_upload_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir Foto de Perfil" />
+
+    <!-- Selector de tema -->
+    <RadioGroup
+        android:id="@+id/theme_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_upload_photo"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_light_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tema Claro" />
+
+        <RadioButton
+            android:id="@+id/radio_dark_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tema Oscuro" />
+    </RadioGroup>
+</RelativeLayout>
